@@ -15,7 +15,7 @@ router.route('/')
 .get(getThoughts)
 
 // api/thoughts/:userId
-router.route('/:userId')
+router.route('/')
 .post(addThought)
 
 // /api/thoughts/:thoughtId
